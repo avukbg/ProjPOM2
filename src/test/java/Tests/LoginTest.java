@@ -19,5 +19,6 @@ public class LoginTest extends BaseTest {
         loginPage.inputUsername();
         loginPage.inputPassword();
         loginPage.clickOnLoginButton();
+        driver.quit();
     }
 }
